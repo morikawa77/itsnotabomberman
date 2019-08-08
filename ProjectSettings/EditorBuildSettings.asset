@@ -5,12 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/Looby.unity
-    guid: 7066e9410ea74f34b8ce1031197dc3dc
   - enabled: 1
     path: Assets/Scenes/Inicio.unity
     guid: f5013dbc191ff0441b7491a0fb2b1d67
@@ -18,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Loading.unity
     guid: 0f348a77484fc0543bdb40b1b95e912f
   - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 2a6e49c29198a4c90b189c51eedc3c88
+  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 1eb47011a0f2d4c4cbfcd43d36d1069a
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: ecca0375a9edfb8418dd716717874779
+  - enabled: 1
+    path: Assets/Scenes/GameWin.unity
+    guid: 1563e5aa15bdf3942954d9a10fafba67
   m_configObjects: {}

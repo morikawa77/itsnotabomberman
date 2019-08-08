@@ -571,7 +571,10 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Build: 0
     Collab: 1
+    ErrorHub: 0
+    Hub: 0
     UNet: 1
   luminIcon:
     m_Name: 
@@ -592,9 +595,9 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: e3ffc154-fe88-4502-a38c-3c0852931867
+  cloudProjectId: d9d3095c-de28-4ef5-8710-cc0720f0dedf
   framebufferDepthMemorylessMode: 0
-  projectName: Its not Bomberman
+  projectName: Its not Bomberman (2)
   organizationId: italo-ferreira
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

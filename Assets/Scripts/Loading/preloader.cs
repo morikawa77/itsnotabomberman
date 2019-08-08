@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Preloader : MonoBehaviour
+public class preloader : MonoBehaviour
 {
     public int sceneIndex;
 
