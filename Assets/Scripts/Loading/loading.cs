@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
+using UnityEngine.Networking;
+
 public class loading : MonoBehaviour
 {
     public string TextoLoading;
@@ -13,11 +15,13 @@ public class loading : MonoBehaviour
 
     void Start()
     {
-        TextoLoading = File.ReadAllText("Assets/Texts/loading.txt");
+        TextoLoading = "-0\nEm um mundo cheio de magia chamado Heragon, existem seres que possuíam o dom de dominar os 4 elementos da natureza: Fogo, Água, Terra e Ar. Nesse mundo eles entraram em conflito entre si por não haver um rei para governar.\n -1 \nPor conta disso eles criaram uma arena para decidir quem será o novo rei de Heragon.";
+
 
         caixaTexto[0].text = "";
         caixaTexto[1].text = "";
     }
+
     void Update()
     {
         lerTexto();
@@ -44,5 +48,7 @@ public class loading : MonoBehaviour
                 i++;
         }
     }
+
+    
 
 }
