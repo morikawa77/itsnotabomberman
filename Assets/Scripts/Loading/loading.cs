@@ -10,7 +10,8 @@ public class loading : MonoBehaviour
     int i;
     public Text[] caixaTexto;
     public Text textoAtual;
-     void Start()
+
+    void Start()
     {
         TextoLoading = File.ReadAllText("Assets/Texts/loading.txt");
 
